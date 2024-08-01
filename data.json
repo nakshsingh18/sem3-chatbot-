@@ -581,6 +581,214 @@
        "patterns": ["How do you treat a Fracture?", "what to do if i get a Fracture?", "Which medicine to take if I have a Fracture?", "How to cure a Fracture?"],
        "responses": ["1)Stop any bleeding. Apply pressure to the wound with a sterile bandage, a clean cloth or a clean piece of clothing. 2)Immobilize the injured area. Don't try to realign the bone or push a bone that's sticking out back in. If you've been trained in how to splint and professional help isn't readily available, apply a splint to the area above and below the fracture sites. Padding the splints can help reduce discomfort. 3)Apply ice packs to limit swelling and help relieve pain. Don't apply ice directly to the skin. Wrap the ice in a towel, piece of cloth or some other material. 4)Treat for shock. If the person feels faint or is breathing in short, rapid breaths, lay the person down with the head slightly lower than the trunk and, if possible, elevate the legs."],
        "context_set": ""
-      }
+      },
+   {"tag": "first_aid_sprains",
+                "patterns": ["I sprained my ankle", "What should I do for a sprain?", "How to treat a sprain", "I have a sprain injury"],
+                "responses": ["For sprains, follow the R.I.C.E method: Rest the injured area, Ice the sprain for 20 minutes every 2-3 hours, Compress with an elastic bandage, and Elevate the injured area. If the pain is severe or you can't move the joint, seek medical attention."],
+            },
+        {
+            "tag": "first_aid_choking",
+            "patterns": ["I'm choking", "What should I do if someone is choking?", "How to help a choking person", "Choking first aid"],
+            "responses": ["If someone is choking, encourage them to cough if they can. If they can't breathe, give 5 back blows between their shoulder blades, then 5 abdominal thrusts. Repeat until the object is dislodged. Call emergency services if the person becomes unconscious."]
+            },
+        {
+                "tag": "exercise_tips",
+                "patterns": ["How can I get more exercise?", "What are some exercise tips?", "How to start exercising", "Exercise advice"],
+                "responses": ["Find an activity you enjoy and start with small, achievable goals. Mix different types of exercise like cardio, strength training, and flexibility workouts. Stay consistent and gradually increase the intensity and duration of your workouts. Remember to warm up before and cool down after exercising."]
+            },
+        {
+            "tag": "dehydration_prevention",
+            "patterns": ["How to prevent dehydration", "Tips for staying hydrated", "How much water should I drink", "Dehydration advice"],
+            "responses": ["Drink plenty of fluids throughout the day, especially in hot weather or during physical activity. Aim for at least 8 cups of water daily, but individual needs may vary. Eat water-rich foods like fruits and vegetables, and avoid excessive caffeine and alcohol."]
+            },
+        {
+            "tag": "healthy_eating",
+            "patterns": ["How can I eat healthier?", "What are some healthy eating tips?", "How to improve my diet", "Healthy diet advice"],
+            "responses": ["Focus on eating a variety of fruits and vegetables, whole grains, lean proteins, and healthy fats. Limit sugary drinks, processed foods, and high-sodium snacks. Stay hydrated and practice mindful eating by paying attention to hunger and fullness cues."]
+            },
+        {
+            "tag": "first_aid_seizures",
+            "patterns": ["I'm having a seizure", "What to do during a seizure", "How to help someone having a seizure", "Seizure first aid"],
+             "responses": ["Stay calm and protect the person from injury. Do not restrain them or put anything in their mouth. After the seizure, place them on their side in the recovery position and check for breathing. Seek medical attention if the seizure lasts longer than 5 minutes or if it's their first seizure."]
+            },
+        {
+            "tag": "first_aid_hypothermia",
+            "patterns": ["I'm very cold", "What to do for hypothermia", "How to treat hypothermia", "Hypothermia symptoms"],
+            "responses": ["Move to a warm place and remove any wet clothing. Warm the body gradually using blankets, warm drinks, or warm water bottles. Do not use direct heat. Seek medical attention immediately if symptoms are severe or if the person is unconscious."]
+            },
+        {
+            "tag": "first_aid_asthma_attack",
+            "patterns": ["I'm having an asthma attack", "What should I do for an asthma attack?", "How to treat an asthma attack", "Asthma emergency"],
+            "responses": ["Sit up straight and stay calm. Use your rescue inhaler as prescribed. If symptoms don't improve within 15 minutes or if the attack is severe, seek emergency medical help immediately."]
+            },
+        {
+            "tag": "first_aid_poisoning",
+            "patterns": ["I think I've been poisoned", "What to do for poisoning", "How to treat poisoning", "Poisoning emergency"],
+            "responses": ["If you suspect poisoning, call emergency services or a poison control center immediately. Do not induce vomiting unless instructed by a professional. If the person is unconscious, not breathing, or having seizures, seek emergency medical help right away."]
+            },
+        {
+            "tag": "first_aid_heat_exhaustion",
+            "patterns": ["I'm feeling very hot", "What should I do for heat exhaustion?", "How to treat heat exhaustion", "Symptoms of heat exhaustion"],
+            "responses": ["Move to a cooler place and lie down. Drink water or a sports drink. Loosen clothing and apply cool, wet cloths to the body. If symptoms worsen or don't improve within an hour, seek medical attention immediately."]
+            },
+        {
+            "tag": "first_aid_choking",
+            "patterns": ["I'm choking", "What should I do if someone is choking?", "How to help a choking person", "Choking first aid"],
+            "responses": ["If someone is choking, encourage them to cough if they can. If they can't breathe, give 5 back blows between their shoulder blades, then 5 abdominal thrusts. Repeat until the object is dislodged. Call emergency services if the person becomes unconscious."]
+            },
+        {
+            "tag": "first_aid_allergic_reaction",
+            "patterns": ["I'm having an allergic reaction", "What to do for an allergic reaction", "How to treat an allergic reaction", "Allergic reaction emergency"],
+            "responses": ["For mild allergic reactions, take an antihistamine and avoid the allergen. For severe reactions (anaphylaxis), use an epinephrine auto-injector if available and seek emergency medical help immediately. Symptoms of anaphylaxis include difficulty breathing, swelling, and hives."]
+            },
+        {
+            "tag": "first_aid_cut_scrape",
+            "patterns": ["I cut myself", "What to do for a cut", "How to treat a scrape", "Cut and scrape first aid"],
+            "responses": ["Clean the wound with water and mild soap. Apply an antiseptic ointment and cover it with a sterile bandage. Keep the wound clean and dry. Seek medical attention if the wound is deep, won't stop bleeding, or shows signs of infection."]
+            },
+        {
+            "tag": "healthy_sleep",
+            "patterns": ["How can I sleep better?", "What are some sleep tips?", "How to improve my sleep", "Sleep advice"],
+            "responses": ["Maintain a regular sleep schedule by going to bed and waking up at the same time every day. Create a relaxing bedtime routine, limit exposure to screens before bed, and ensure your sleep environment is comfortable and dark. Avoid caffeine and heavy meals before bedtime."]
+            },
+        {
+            "tag": "managing_stress",
+            "patterns": ["I'm feeling stressed", "How to manage stress", "Stress relief tips", "Stress management advice"],
+            "responses": ["Practice relaxation techniques like deep breathing, meditation, or yoga. Exercise regularly, get enough sleep, and maintain a balanced diet. Stay connected with loved ones and consider talking to a mental health professional if needed."]
+          },
+          {
+            "tag": "first_aid_cut_initial",
+            "patterns": ["I cut myself", "How to treat a cut", "What to do for a cut", "Cut first aid"],
+            "responses": [
+                "I'm sorry to hear that. Can you please tell me how deep the cut is? Is it a small cut, a deep cut, or is it bleeding heavily?"
+            ]
+        },
+        {
+            "tag": "first_aid_cut_small",
+            "patterns": ["small cut", "minor cut", "tiny cut"],
+            "responses": [
+                "For a small cut:\n1. Wash your hands with soap and water.\n2. Clean the wound with mild soap and water. Do not use hydrogen peroxide or iodine.\n3. Apply an antiseptic ointment to prevent infection.\n4. Cover the wound with a sterile bandage.\n5. Change the bandage daily or whenever it becomes wet or dirty.\n6. Seek medical attention if the cut shows signs of infection like redness, swelling, or pus."
+            ]
+        },
+        {
+            "tag": "first_aid_cut_deep",
+            "patterns": ["deep cut", "large cut", "serious cut"],
+            "responses": [
+                "For a deep cut:\n1. Wash your hands with soap and water.\n2. Apply gentle pressure with a clean cloth to stop the bleeding.\n3. Clean the wound with mild soap and water once the bleeding stops.\n4. Apply an antiseptic ointment to prevent infection.\n5. Cover the wound with a sterile bandage.\n6. Seek medical attention immediately as deep cuts may require stitches."
+            ]
+        },
+        {
+            "tag": "first_aid_cut_bleeding",
+            "patterns": ["heavy bleeding", "bleeding heavily", "can't stop bleeding"],
+            "responses": [
+                "For heavy bleeding:\n1. Apply firm pressure with a clean cloth or bandage.\n2. Elevate the injured area if possible.\n3. Keep applying pressure until the bleeding stops.\n4. Do not remove the cloth or bandage if it becomes soaked with blood. Instead, add more layers on top.\n5. Seek emergency medical attention immediately."
+            ]
+        },
+        {
+            "tag": "first_aid_burn_initial",
+            "patterns": ["I burned myself", "How to treat a burn", "What to do for a burn", "Burn first aid"],
+            "responses": [
+                "I'm sorry to hear that. Can you please tell me how severe the burn is? Is it a minor burn, a blistering burn, or a severe burn?"
+            ]
+        },
+        {
+            "tag": "first_aid_burn_minor",
+            "patterns": ["minor burn", "small burn", "first-degree burn"],
+            "responses": [
+                "For a minor burn:\n1. Cool the burn under running water for at least 10 minutes.\n2. Avoid using ice, butter, or other home remedies.\n3. Gently pat the area dry with a clean cloth.\n4. Apply an antibiotic ointment or aloe vera gel.\n5. Cover the burn with a sterile, non-stick bandage.\n6. Take over-the-counter pain relievers if needed.\n7. Seek medical attention if the burn shows signs of infection like redness, swelling, or pus."
+            ]
+        },
+        {
+            "tag": "first_aid_burn_blistering",
+            "patterns": ["blistering burn", "second-degree burn"],
+            "responses": [
+                "For a blistering burn:\n1. Cool the burn under running water for at least 10 minutes.\n2. Avoid using ice, butter, or other home remedies.\n3. Do not break the blisters.\n4. Gently pat the area dry with a clean cloth.\n5. Apply an antibiotic ointment.\n6. Cover the burn with a sterile, non-stick bandage.\n7. Seek medical attention as blistering burns require professional care."
+            ]
+        },
+        {
+            "tag": "first_aid_burn_severe",
+            "patterns": ["severe burn", "third-degree burn"],
+            "responses": [
+                "For a severe burn:\n1. Call emergency services immediately.\n2. Do not remove burnt clothing, but make sure the victim is no longer in contact with the heat source.\n3. Cool the burn with running water for at least 10 minutes if possible.\n4. Cover the burn with a clean cloth or sterile bandage.\n5. Do not apply any creams, ointments, or ice.\n6. Elevate the burned area if possible until help arrives."
+            ]
+        },
+        {
+            "tag": "first_aid_allergic_reaction_initial",
+            "patterns": ["I'm having an allergic reaction", "How to treat an allergy", "What to do for an allergic reaction", "Allergic reaction first aid"],
+            "responses": [
+                "I'm sorry to hear that. Can you please tell me if the reaction is mild, such as hives or itching, or severe, like difficulty breathing or swelling of the face and throat?"
+            ]
+        },
+        {
+            "tag": "first_aid_allergic_reaction_mild",
+            "patterns": ["mild reaction", "hives", "itching"],
+            "responses": [
+                "For a mild allergic reaction:\n1. Identify and avoid the allergen if possible.\n2. Take an over-the-counter antihistamine.\n3. Apply a cool compress to any affected skin areas to reduce itching and swelling.\n4. Seek medical attention if symptoms persist or worsen."
+            ]
+        },
+        {
+            "tag": "first_aid_allergic_reaction_severe",
+            "patterns": ["severe reaction", "difficulty breathing", "swelling face", "anaphylaxis"],
+            "responses": [
+                "For a severe allergic reaction (anaphylaxis):\n1. Use an epinephrine auto-injector if available.\n2. Call emergency services immediately.\n3. Lie down and elevate your legs if possible.\n4. Stay with the person until help arrives, monitoring their breathing and responsiveness."
+            ]
+        },
+        {
+            "tag": "first_aid_fracture_initial",
+            "patterns": ["I think I broke a bone", "How to treat a fracture", "What to do for a broken bone", "Fracture first aid"],
+            "responses": [
+                "I'm sorry to hear that. Can you please tell me if the bone is visibly broken, if there is swelling, or if there is an open wound?"
+            ]
+        },
+        {
+            "tag": "first_aid_fracture_visible",
+            "patterns": ["visible break", "bone sticking out", "bone broken"],
+            "responses": [
+                "For a visible break:\n1. Do not try to realign the bone.\n2. Cover the wound with a sterile dressing if the bone has punctured the skin.\n3. Immobilize the injured area with a splint or sling.\n4. Apply a cold pack to reduce swelling, but avoid placing ice directly on the skin.\n5. Seek emergency medical attention immediately."
+            ]
+        },
+        {
+            "tag": "first_aid_fracture_swelling",
+            "patterns": ["swelling", "swollen area"],
+            "responses": [
+                "For a swollen area:\n1. Immobilize the injured area to prevent further injury.\n2. Apply a cold pack to reduce swelling, but avoid placing ice directly on the skin.\n3. Keep the injured area elevated if possible.\n4. Seek medical attention for proper evaluation and treatment."
+            ]
+        },
+        {
+            "tag": "first_aid_fracture_open_wound",
+            "patterns": ["open wound", "wound with fracture"],
+            "responses": [
+                "For an open wound with a fracture:\n1. Cover the wound with a sterile dressing to prevent infection.\n2. Immobilize the injured area to prevent further injury.\n3. Apply a cold pack to reduce swelling, but avoid placing ice directly on the skin.\n4. Seek emergency medical attention immediately."
+            ]
+        },
+        {
+            "tag": "heart_attack_initial",
+            "patterns": ["I don't feel well", "I'm in pain", "Something's wrong with me", "I need help"],
+            "responses": [
+                "I'm sorry to hear that. Can you please tell me what symptoms you are experiencing? "
+            ]
+        },
+        {
+            "tag": "heart_attack_symptom_confirmation",
+            "patterns": ["chest pain", "discomfort", "shortness of breath", "pain in arm", "pain in neck", "pain in jaw", "nausea", "lightheadedness", "sweating"],
+            "responses": [
+                "It sounds like you might be experiencing symptoms of a heart attack. I will call emergency services for you. Please stay calm and provide me with your location so I can find the nearest hospital."
+            ]
+        },
+        {
+            "tag": "location_request",
+            "patterns": ["I'm at [location]", "My address is [location]", "I'm near [landmark]"],
+            "responses": [
+                "Thank you. I am calling emergency services now and locating the nearest hospital. Please remain calm and wait for help to arrive."
+            ]
+        },
+        {
+            "tag": "no_heart_attack_symptoms",
+            "patterns": ["no", "none of those symptoms"],
+            "responses": [
+                "If you are not experiencing these symptoms, it might not be a heart attack, but it's important to monitor your symptoms and seek medical advice if you continue to feel unwell. Can you describe your symptoms in more detail so I can assist you better?"
+            ]
+        }                
+
  ]
 }
